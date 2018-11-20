@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+.modal__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.00);
+  -webkit-animation-duration: 1s;
+}
+
+.hide {
+  display: none;
+}
+
+.modal__body {
+  position: relative;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(200deg, #092074 39.29%, #098910 60.71%);
+  transform: translate(-50%, -70%);
+  border-radius: 30px;
+}
+
+.modal__title {
+  padding-top: 3rem;
+}
+
+.modal__button {
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 1em;
+  height: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+h1 {
+  font-family: 'Baloo Bhaijaan', cursive;
+  color: white;
+}
